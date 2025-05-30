@@ -3,7 +3,7 @@
 
 This FastAPI application exposes a single endpoint `/execute` that analyzes a natural language query, identifies a matching function name, extracts required parameters, and returns a structured JSON response. It acts as a basic NLU (Natural Language Understanding) processor for function dispatching.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 hello/
@@ -26,7 +26,7 @@ hello/
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 1. **Clone the project** (if not already):
 
@@ -56,7 +56,7 @@ hello/
 
 ---
 
-## 🌐 API Usage
+##  API Usage
 
 ### **Endpoint**
 
@@ -80,7 +80,7 @@ http://127.0.0.1:8001/execute?q=What is the status of ticket 83742?
 
 ---
 
-## 🧠 Supported Patterns
+##  Supported Patterns
 
 The application currently supports the following types of queries:
 
@@ -101,7 +101,7 @@ The application currently supports the following types of queries:
 
 ---
 
-## 📂 File Descriptions
+##  File Descriptions
 
 - **`app.py`**: Initializes the FastAPI app, sets up CORS, and defines the `/execute` endpoint.
 - **`main.py`**: Contains the logic to identify and parse queries, returning the correct function call mapping.
@@ -110,7 +110,7 @@ The application currently supports the following types of queries:
 
 ---
 
-## ✅ Example Test
+##  Example Test
 
 ```bash
 curl "http://127.0.0.1:8001/execute?q=What is the status of ticket 83742?"
@@ -127,11 +127,12 @@ Expected Response:
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - Be sure to run only one FastAPI app per port at a time.
 - This API is designed to be backend-compatible with any UI, chatbot, or automation tool that interprets natural language queries.
 
 ---
 
-Let me know if you want me to help with anything else!
+## Author
+- Saumya Chauhan
